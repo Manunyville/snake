@@ -1,0 +1,42 @@
+* {
+    font-family: "share tech mono",monospace;
+}
+
+#board, .boardInfo {
+    max-width: 500px;
+}
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#start{
+    color: white;
+    background-color: rgb(195, 52, 52);
+    border: none ;
+}
+.square {
+    aspect-ratio: 1;
+}
+.emptySquare{
+    background-color: lightgreen;
+}
+.snakeSquare {
+    background-color: rgba(214, 214, 87, 0.894);
+}
+.foodSquare {
+    background-color: rgb(195, 52, 52);
+}
