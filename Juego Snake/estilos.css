@@ -32,11 +32,11 @@
     aspect-ratio: 1;
 }
 .emptySquare{
-    background-color: lightgreen;
+    background-color: rgb(86, 152, 55);
 }
 .snakeSquare {
-    background-color: rgba(214, 214, 87, 0.894);
+    background-color: rgb(255, 229, 60);
 }
 .foodSquare {
-    background-color: rgb(195, 52, 52);
+    background-color: rgb(255, 0, 0);
 }
